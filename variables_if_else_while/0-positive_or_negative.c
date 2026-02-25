@@ -3,13 +3,11 @@
 #include <stdio.h>
 
 /**
- *
- * main - Entry point
- *
- * Description: Prints a random number each time it is executed.
- *              Whether it is positive or negative.
- * return: Always 0 (Success)
- */
+* main - Entry point
+* Description: Prints a random number each time it is executed.
+* Whether it is positive or negative.
+* Return: Always 0 (Success)
+*/
 
 int main(void)
 {
