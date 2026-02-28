@@ -2,4 +2,4 @@
 
 0. **Debugging a Counting Function** (`sum_to_n.c`)  
 1. **Debugging Nested Loops** (`multiplication_table`)  
-2. **Debugging State Across Function Calls**
+2. **Debugging State Across Function Calls** (`row_sums`)
