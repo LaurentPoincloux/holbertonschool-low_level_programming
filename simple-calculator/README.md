@@ -1,10 +1,28 @@
 # Terminal Calculator in C
 
-## Overview
-A simple terminal-based calculator in C.  
-Focus on building a **complete, working program** with loops, menu, and basic arithmetic.
+## Deliverables
+- `calculator.c`
+- `README.md` (this file)
 
-## Compile & Run
-```bash
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 calculator.c -o calculator
-./calculator
+## Compile Command
+`gcc -Wall -Werror -Wextra -pedantic -std=gnu89 calculator.c -o calculator`
+
+## Run Instructions
+`./calculator`  
+Follow the on-screen menu to perform calculations.
+
+## Supported Operations
+- Addition (`+`)
+- Subtraction (`-`)
+- Multiplication (`*`)
+- Division (`/`)
+
+## Numeric Behavior
+- Works with integers only
+- Division results are truncated to integers
+- No floating-point operations
+
+## Known Limitations
+- Non-numeric input may cause undefined behavior
+- Only integer menu options are validated
+- Advanced input validation is optional
