@@ -46,7 +46,7 @@ int main(void)
         printf("Result: %.2f\n", sum);
     }
 
-        if (choice == 2)
+    if (choice == 2)
     {
         printf("a:\n");
         scanf("%f", &a);
@@ -54,6 +54,17 @@ int main(void)
         scanf("%f", &b);
         printf("a: %.2f\nb: %.2f\n", a, b);
         sum = a - b;
+        printf("Result: %.2f\n", sum);
+    }
+
+    if (choice == 3)
+    {
+        printf("a:\n");
+        scanf("%f", &a);
+        printf("b:\n");
+        scanf("%f", &b);
+        printf("a: %.2f\nb: %.2f\n", a, b);
+        sum = a * b;
         printf("Result: %.2f\n", sum);
     }
     
