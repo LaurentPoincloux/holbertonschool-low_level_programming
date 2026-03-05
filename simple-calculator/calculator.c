@@ -75,8 +75,17 @@ int main(void)
         printf("b:\n");
         scanf("%f", &b);
         printf("a: %.2f\nb: %.2f\n", a, b);
+
+        if(b == 0)
+        {
+            printf("Error : division by zero\n");
+        }
+
+        else 
+        {
         sum = a / b;
         printf("Result: %.2f\n", sum);
+        }
     }
     
     }
