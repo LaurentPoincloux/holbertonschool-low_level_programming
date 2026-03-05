@@ -67,6 +67,17 @@ int main(void)
         sum = a * b;
         printf("Result: %.2f\n", sum);
     }
+
+    if (choice == 4)
+    {
+        printf("a:\n");
+        scanf("%f", &a);
+        printf("b:\n");
+        scanf("%f", &b);
+        printf("a: %.2f\nb: %.2f\n", a, b);
+        sum = a / b;
+        printf("Result: %.2f\n", sum);
+    }
     
     }
 
