@@ -6,6 +6,9 @@
 int main(void)
 {
     int choice = 0;
+    float a;
+    float b;
+    float sum;
     
     printf("Simple Calculator\n");
     while(1)
@@ -31,9 +34,18 @@ int main(void)
     printf("Bye!\n");
       return (0);
     }
+
+    if (choice == 1)
+    {
+        printf("a:\n");
+        scanf("%f", &a);
+        printf("b:\n");
+        scanf("%f", &b);
+        printf("a: %f\nb: %f\n", a, b);
+        sum = a + b;
+        printf("Result: %f\n", sum);
+    }
     
     }
 
-
- 
 }
