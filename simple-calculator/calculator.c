@@ -41,9 +41,20 @@ int main(void)
         scanf("%f", &a);
         printf("b:\n");
         scanf("%f", &b);
-        printf("a: %f\nb: %f\n", a, b);
+        printf("a: %.2f\nb: %.2f\n", a, b);
         sum = a + b;
-        printf("Result: %f\n", sum);
+        printf("Result: %.2f\n", sum);
+    }
+
+        if (choice == 2)
+    {
+        printf("a:\n");
+        scanf("%f", &a);
+        printf("b:\n");
+        scanf("%f", &b);
+        printf("a: %.2f\nb: %.2f\n", a, b);
+        sum = a - b;
+        printf("Result: %.2f\n", sum);
     }
     
     }
